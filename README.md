@@ -28,6 +28,10 @@ La idea es trabajar con retos guiados y artefactos simples de configuración par
 - Explicación conceptual de la sesión
 - Challenge técnico ligero basado en políticas y configuración
 
+### Sesión 4. Monitoreo y observabilidad para un agente de IA de atención a clientes
+- Explicación conceptual de la sesión
+- Challenge técnico ligero basado en configuración de observabilidad
+
 ## Estructura del repositorio
 
 ```text
@@ -59,6 +63,16 @@ sesion-03-seguridad/
     guardrails.yml
     redaction_rules.json
     tool_permissions.yml
+    rubrica.md
+
+sesion-04-observabilidad/
+  README.md
+  explicacion.md
+  challenge/
+    README.md
+    observability.yaml
+    dashboards.json
+    eval_rubric.md
     rubrica.md
 ```
 

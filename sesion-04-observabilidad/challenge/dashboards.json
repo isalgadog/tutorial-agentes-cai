@@ -1,0 +1,22 @@
+{
+  "product_kpis": [
+    "containment_rate",
+    "handoff_rate",
+    "customer_clarity_score"
+  ],
+  "risk_kpis": [
+    "missed_escalation_rate",
+    "unsafe_resolution_rate",
+    "policy_block_rate"
+  ],
+  "system_kpis": [
+    "latency_p95",
+    "tool_error_rate",
+    "session_failure_rate"
+  ],
+  "review_panels": [
+    "sensitive_case_samples",
+    "out_of_scope_responses",
+    "repeated_user_requests"
+  ]
+}

@@ -1,0 +1,24 @@
+events_to_track:
+  - "conversation_started"
+  - "tool_used"
+  - "handoff_triggered"
+  - "response_out_of_scope"
+  - "user_repeated_request"
+  - "policy_block_triggered"
+  - "high_latency_response"
+
+alerts:
+  missed_escalation_rate:
+    enabled: true
+    threshold: 0.02
+  unsafe_resolution_detected:
+    enabled: true
+    threshold: 0.0
+  high_latency_rate:
+    enabled: true
+    threshold: 0.15
+
+review_policy:
+  manual_review_for_sensitive_cases: true
+  sample_conversations_weekly: true
+  include_tool_traces: true
