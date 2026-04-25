@@ -40,6 +40,11 @@ La idea es trabajar con retos guiados y artefactos simples de configuración par
 - Explicación conceptual de la sesión
 - Challenge técnico ligero basado en decisiones finales de diseño y operación
 
+## Documentos base
+
+- `README.md`: vista general del curso
+- `PRERREQUISITOS.md`: qué necesita una persona participante para seguir el tutorial
+
 ## Estructura del repositorio
 
 ```text
