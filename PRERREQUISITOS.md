@@ -96,6 +96,69 @@ Antes de iniciar el curso, idealmente cada participante debería haber validado 
 - [ ] Tengo un editor de texto o IDE listo
 - [ ] Tengo Git instalado, de preferencia
 
+## Setup sugerido de OpenClaw, paso a paso
+
+Esta sección sirve como guía mínima para dejar el entorno listo antes del curso.
+
+### 1. Confirmar instalación de OpenClaw
+Verifica que OpenClaw esté instalado y accesible en tu entorno habitual.
+
+Idealmente deberías poder:
+- abrir OpenClaw
+- entrar a una sesión
+- trabajar con un workspace local
+
+### 2. Validar acceso al workspace del curso
+Abre el repositorio del tutorial en tu máquina y confirma que puedes:
+- ver carpetas y archivos
+- abrir archivos Markdown, JSON y YAML
+- guardar cambios localmente
+
+### 3. Configurar el modelo o asistente que vayas a usar
+El curso está pensado para combinaciones ligeras como:
+- OpenClaw + Codex
+- OpenClaw + Gemini
+
+Antes de empezar, conviene validar que al menos una de estas opciones ya funcione en tu entorno.
+
+### 4. Confirmar edición local en tu IDE o editor
+Abre el repositorio en tu editor y comprueba que puedes editar sin fricción:
+- `README.md`
+- archivos `.json`
+- archivos `.yml`
+
+### 5. Confirmar flujo básico de trabajo
+Antes de la primera sesión, intenta esta prueba mínima:
+- abrir el repo
+- modificar un archivo de texto
+- guardar cambios
+- revisar diferencias con Git, si lo usas
+
+Si esto ya funciona, el entorno base está listo para el curso.
+
+## Troubleshooting común
+
+### OpenClaw abre, pero no encuentro el workspace
+Revisa que estés apuntando al repositorio correcto y que el directorio local exista en tu máquina.
+
+### Puedo abrir archivos, pero no guardar cambios
+Revisa permisos del directorio o si abriste una copia temporal en lugar del repo real.
+
+### No tengo listo Codex o Gemini
+No necesitas ambos. Con uno funcional basta para seguir el curso. Lo importante es llegar con una opción ya conectada y probada.
+
+### No reconozco YAML o JSON
+No hace falta experiencia avanzada. Los retos del curso están pensados para cambiar listas, flags, textos y configuraciones simples.
+
+### Git no está instalado o no lo uso
+Puedes seguir el curso sin Git, aunque es muy recomendable. Si no lo tienes, aún podrás editar los archivos y trabajar los retos localmente.
+
+### Mi editor no resalta bien los archivos
+Prueba abrir el repo en un editor como VS Code o cualquier IDE que soporte Markdown, JSON y YAML con normalidad.
+
+### El entorno está listo, pero el equipo se atoró en setup durante la sesión
+Para talleres, conviene hacer una verificación previa de 5 a 10 minutos antes de arrancar formalmente.
+
 ## Nota para facilitación
 
 Si este tutorial se va a impartir en taller, conviene verificar el setup antes de la primera sesión para no perder tiempo de clase en instalación o conexión.
