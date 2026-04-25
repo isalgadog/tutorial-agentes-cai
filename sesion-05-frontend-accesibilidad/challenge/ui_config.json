@@ -1,0 +1,9 @@
+{
+  "show_typing_indicator": true,
+  "show_handoff_banner": true,
+  "require_confirmation_for_sensitive_actions": true,
+  "response_density": "compact",
+  "high_contrast_mode": true,
+  "keyboard_navigation_enabled": true,
+  "reduced_motion_mode": true
+}

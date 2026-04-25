@@ -32,6 +32,10 @@ La idea es trabajar con retos guiados y artefactos simples de configuración par
 - Explicación conceptual de la sesión
 - Challenge técnico ligero basado en configuración de observabilidad
 
+### Sesión 5. Frontend y accesibilidad para un agente de IA de atención a clientes
+- Explicación conceptual de la sesión
+- Challenge técnico ligero basado en configuración de experiencia y accesibilidad
+
 ## Estructura del repositorio
 
 ```text
@@ -73,6 +77,16 @@ sesion-04-observabilidad/
     observability.yaml
     dashboards.json
     eval_rubric.md
+    rubrica.md
+
+sesion-05-frontend-accesibilidad/
+  README.md
+  explicacion.md
+  challenge/
+    README.md
+    ui_config.json
+    conversation_states.yml
+    accessibility_checklist.md
     rubrica.md
 ```
 

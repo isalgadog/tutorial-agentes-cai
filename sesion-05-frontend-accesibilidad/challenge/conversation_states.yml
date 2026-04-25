@@ -1,0 +1,18 @@
+states:
+  idle:
+    label: "Esperando tu consulta"
+  processing:
+    label: "Estoy revisando tu solicitud"
+  clarification_needed:
+    label: "Necesito un poco más de información"
+  responding:
+    label: "Aquí tienes una respuesta"
+  handoff:
+    label: "Voy a escalar tu caso a una persona"
+  error:
+    label: "No pude completar esta acción"
+
+messages:
+  handoff_explanation: "Tu caso requiere revisión humana. Compartiré el contexto necesario para evitar que repitas información."
+  sensitive_confirmation: "Esta acción requiere confirmación antes de continuar."
+  generic_error: "Hubo un problema. Puedes intentarlo de nuevo o pedir ayuda humana."
