@@ -1,0 +1,14 @@
+{
+  "redact_categories": [
+    "payment_details",
+    "government_id",
+    "full_address",
+    "internal_case_notes"
+  ],
+  "mask_style": "partial",
+  "redact_in_logs": true,
+  "redact_in_agent_responses": true,
+  "allow_plain_display_for": [
+    "public_policy_information"
+  ]
+}

@@ -1,0 +1,22 @@
+restricted_topics:
+  - "fraude"
+  - "reclamos legales"
+  - "disputas de cobro"
+  - "cambios en datos sensibles"
+
+must_escalate_when:
+  - "solicitud fuera de política"
+  - "baja confianza en la respuesta"
+  - "usuario solicita acción irreversible"
+  - "detección de posible información sensible"
+
+blocked_actions:
+  - "emitir reembolsos finales"
+  - "modificar datos críticos"
+  - "revelar información interna"
+  - "ejecutar acciones externas sin aprobación"
+
+response_rules:
+  acknowledge_limits: true
+  never_claim_unverified_action_complete: true
+  ask_for_minimum_necessary_information: true

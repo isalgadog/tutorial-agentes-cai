@@ -24,6 +24,10 @@ La idea es trabajar con retos guiados y artefactos simples de configuración par
 - Explicación conceptual de la sesión
 - Challenge técnico ligero basado en archivos de configuración
 
+### Sesión 3. Seguridad y guardrails para un agente de IA de atención a clientes
+- Explicación conceptual de la sesión
+- Challenge técnico ligero basado en políticas y configuración
+
 ## Estructura del repositorio
 
 ```text
@@ -45,6 +49,16 @@ sesion-02-arquitectura/
     architecture.config.json
     tool_registry.json
     data_flow.md
+    rubrica.md
+
+sesion-03-seguridad/
+  README.md
+  explicacion.md
+  challenge/
+    README.md
+    guardrails.yml
+    redaction_rules.json
+    tool_permissions.yml
     rubrica.md
 ```
 

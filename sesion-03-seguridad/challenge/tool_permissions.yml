@@ -1,0 +1,23 @@
+tools:
+  faq_lookup:
+    access: "allow"
+    mode: "read_only"
+  order_status_lookup:
+    access: "allow"
+    mode: "read_only"
+  handoff_to_human:
+    access: "allow"
+    mode: "write_allowed"
+  refund_execution:
+    access: "deny"
+    mode: "blocked"
+  customer_data_update:
+    access: "deny"
+    mode: "blocked"
+  policy_override:
+    access: "deny"
+    mode: "blocked"
+
+sensitive_tool_policy:
+  require_human_approval: true
+  default_mode: "deny"
