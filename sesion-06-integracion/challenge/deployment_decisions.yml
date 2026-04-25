@@ -1,0 +1,26 @@
+version_scope:
+  release_stage: "v1_internal_or_pilot"
+  included_capabilities:
+    - "faq"
+    - "order_status"
+    - "handoff_to_human"
+  excluded_capabilities:
+    - "refund_execution"
+    - "customer_data_modification"
+    - "policy_override"
+
+tradeoffs:
+  prioritize_safety_over_containment: true
+  prioritize_simplicity_over_extensibility: true
+  prioritize_reviewability_over_speed: true
+
+model_policy:
+  primary_model: "codex_or_gemini"
+  fallback_enabled: false
+  approval_required_for_sensitive_changes: true
+
+launch_conditions:
+  minimum_guardrails_enabled: true
+  minimum_observability_enabled: true
+  handoff_path_verified: true
+  accessibility_baseline_checked: true

@@ -36,6 +36,10 @@ La idea es trabajar con retos guiados y artefactos simples de configuración par
 - Explicación conceptual de la sesión
 - Challenge técnico ligero basado en configuración de experiencia y accesibilidad
 
+### Sesión 6. Integración, tradeoffs y operating model para un agente de IA de atención a clientes
+- Explicación conceptual de la sesión
+- Challenge técnico ligero basado en decisiones finales de diseño y operación
+
 ## Estructura del repositorio
 
 ```text
@@ -87,6 +91,16 @@ sesion-05-frontend-accesibilidad/
     ui_config.json
     conversation_states.yml
     accessibility_checklist.md
+    rubrica.md
+
+sesion-06-integracion/
+  README.md
+  explicacion.md
+  challenge/
+    README.md
+    deployment_decisions.yml
+    operating_model.md
+    release_checklist.md
     rubrica.md
 ```
 
