@@ -31,6 +31,9 @@ Tres archivos editados:
 - `success_metrics.json`
 - `escalation_policy.yml`
 
+Archivo de apoyo para evaluación:
+- `rubrica.md`
+
 ## Escenario base
 
 Una empresa quiere lanzar un agente de IA para atención a clientes en un canal digital.
