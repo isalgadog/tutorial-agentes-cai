@@ -1,0 +1,21 @@
+{
+  "primary_kpis": {
+    "containment_rate_target": 0.55,
+    "handoff_rate_target": 0.30,
+    "customer_clarity_score_target": 0.85
+  },
+  "risk_kpis": {
+    "unsafe_resolution_target": 0.0,
+    "missed_escalations_target": 0.02
+  },
+  "experience_signals": [
+    "user_understood_next_step",
+    "response_was_clear",
+    "issue_was_routed_correctly"
+  ],
+  "failure_signals": [
+    "agent_answered_out_of_scope",
+    "agent_did_not_escalate_sensitive_case",
+    "user_had_to_repeat_information_multiple_times"
+  ]
+}

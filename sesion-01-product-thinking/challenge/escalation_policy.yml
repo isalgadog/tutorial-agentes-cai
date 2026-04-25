@@ -1,0 +1,20 @@
+escalate_when:
+  sensitive_topics:
+    - "fraude"
+    - "disputa de cobro"
+    - "reclamo legal"
+  user_state:
+    - "frustración evidente"
+    - "solicitud repetida más de dos veces"
+  uncertainty:
+    low_confidence: true
+    missing_critical_context: true
+  restricted_actions:
+    - "aprobar reembolso final"
+    - "modificar datos críticos"
+    - "tomar decisiones fuera de política"
+
+handoff_style:
+  explain_reason: true
+  summarize_case: true
+  promise_human_followup: true
