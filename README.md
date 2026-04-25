@@ -20,6 +20,10 @@ La idea es trabajar con retos guiados y artefactos simples de configuración par
 - Explicación conceptual de la sesión
 - Challenge técnico ligero basado en archivos de configuración
 
+### Sesión 2. Infraestructura y arquitectura para un agente de IA de atención a clientes
+- Explicación conceptual de la sesión
+- Challenge técnico ligero basado en archivos de configuración
+
 ## Estructura del repositorio
 
 ```text
@@ -31,6 +35,17 @@ sesion-01-product-thinking/
     agent_profile.yml
     success_metrics.json
     escalation_policy.yml
+    rubrica.md
+
+sesion-02-arquitectura/
+  README.md
+  explicacion.md
+  challenge/
+    README.md
+    architecture.config.json
+    tool_registry.json
+    data_flow.md
+    rubrica.md
 ```
 
 ## Estado

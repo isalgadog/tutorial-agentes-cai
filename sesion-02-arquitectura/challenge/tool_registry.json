@@ -1,0 +1,16 @@
+{
+  "enabled_tools": [
+    "faq_lookup",
+    "order_status_lookup",
+    "handoff_to_human"
+  ],
+  "disabled_tools": [
+    "refund_execution",
+    "customer_data_update",
+    "policy_override"
+  ],
+  "tool_policy": {
+    "allow_external_writes": false,
+    "require_human_approval_for_sensitive_actions": true
+  }
+}

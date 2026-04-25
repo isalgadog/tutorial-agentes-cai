@@ -1,0 +1,30 @@
+{
+  "channel": "web_chat",
+  "frontend": {
+    "enabled": true,
+    "type": "simple_chat_ui"
+  },
+  "orchestrator": {
+    "enabled": true,
+    "type": "openclaw",
+    "session_memory": true,
+    "retry_policy": "basic",
+    "timeout_seconds": 20
+  },
+  "model": {
+    "provider": "codex_or_gemini",
+    "fallback_enabled": false
+  },
+  "knowledge_base": {
+    "enabled": true,
+    "mode": "local_files"
+  },
+  "customer_data_store": {
+    "enabled": false,
+    "mode": "not_connected"
+  },
+  "logging": {
+    "enabled": true,
+    "level": "basic"
+  }
+}
